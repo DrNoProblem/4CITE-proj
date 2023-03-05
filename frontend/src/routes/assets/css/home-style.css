@@ -1,0 +1,123 @@
+
+input {
+    border-radius: 10px;
+}
+
+.body {
+    color: #fff;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    gap: 50px;
+}
+
+.body div:nth-child(n) {
+    background-color: #313843;
+    border-radius: 20px;
+}
+
+.home-city {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    font-size: 25px;
+    width: 100%;
+}
+
+.choose-hotel {
+    width: 40%;
+    padding: 50px;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose-hotel input{
+    background: #3b4350;
+    border: 2px solid #3b4350;
+    padding: 10px;
+    color: #fff;
+}
+
+.choose-hotel p{
+    color: #3f80ff;
+}
+
+
+.home-city p{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.home-city input {
+    font-size: 25px;
+    width: 100%;
+}
+
+.home-date {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.home-date input {
+    margin-top: 10px;
+}
+
+.home-reserv {
+    width: 25%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.body .button-reserv {
+    width: 45%;
+    border: 2px solid #3f80ff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    background: #3f80ff;
+}
+
+.body .button-reserv:hover {
+    background-color: #00000000;
+    color: #3f80ff;
+    cursor: pointer;
+}
+
+.body .button-hotel {
+    width: 50%;
+    border: 2px solid #3f80ff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    background: #3f80ff;
+    margin-top: 15px;
+}
+
+.body .button-hotel:hover {
+    background-color: #00000000;
+    color: #3f80ff;
+    cursor: pointer;
+}
+
+.home-rapid {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    padding: 25px 50px;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}

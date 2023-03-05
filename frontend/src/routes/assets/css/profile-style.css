@@ -1,0 +1,14 @@
+.body {
+    padding: 100px;
+    color: #fff;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.title-profile {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #3f80ff;
+    margin-top: 50px;
+}

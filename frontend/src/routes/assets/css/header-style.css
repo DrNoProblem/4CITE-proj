@@ -1,0 +1,256 @@
+@font-face {
+    font-family: 'silkamedium';
+    src: url('../fonts/silka-medium-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+* {
+    font-family: 'silkamedium';
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.user {
+    align-items: center;
+    justify-content: end;
+    gap: 25px;
+}
+
+.d-none {
+    display: none;
+}
+
+p {
+    margin: 0;
+}
+
+.header a {
+    font-size: large;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    color: #f4f5f7;
+    text-transform: capitalize;
+    padding: 15px;
+}
+
+.header a:hover {
+    color: #3f80ff;
+}
+
+.reservation.grey {
+    color: #3b4350;
+}
+
+.reservation.grey:hover {
+    color: #3b4350;
+    cursor: no-drop;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+
+body {
+    margin: 0;
+    background: #3b4350;
+}
+
+.header {
+    top: 0;
+    color: #f4f5f7;
+    padding: 0 5%;
+    width: 90%;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #252e37;
+    border-bottom: 2px solid #ff2768;
+    box-shadow: #ff2768 0 1px 10px 0px;
+    position: fixed;
+    z-index: 1000;
+}
+
+.fantom-header {
+    width: 90%;
+    height: 65px;
+}
+
+.information {
+    display: none;
+    top: 150%;
+    right: 1.5%;
+    position: absolute;
+    width: 15%;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    background: #252e37;
+    border-radius: 8px;
+}
+
+.information.active {
+    display: flex;
+}
+
+.information a {
+    border: 0px solid;
+}
+
+
+.information img {
+    margin-right: 15px;
+}
+
+
+.information a:hover {
+    border: 0px solid;
+}
+
+
+.user-window {
+    color: #fff;
+    width: 15%;
+    display: none;
+    flex-direction: column;
+    top: 150%;
+    right: 1.5%;
+    position: absolute;
+    padding: 50px 50px;
+    justify-content: space-between;
+    align-items: start;
+    background: #252e37;
+    border-radius: 8px;
+    gap: 10px;
+}
+
+.user-window.active {
+    display: flex;
+}
+
+.userOption {
+    width: 20%;
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+}
+
+.connected .user {
+    display: flex;
+}
+
+/* .user {
+    display: none;
+}
+
+.connected .connexion {
+    display: none;
+} */
+
+.connexion {
+    display: flex;
+}
+
+.user a:hover,
+.information a:hover {
+    cursor: pointer;
+}
+
+.button-sign {
+    border: 2px solid #3f80ff;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #3f80ff;
+    margin-top: 15px;
+}
+
+.button-sign:hover {
+    background-color: #00000000;
+    color: #3f80ff;
+    cursor: pointer;
+}
+
+.header img:hover {
+    cursor: pointer;
+}
+
+.sign-in,
+.sign-up {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    gap: 25px;
+}
+
+.sign-in input,
+.sign-up input {
+    width: 100%;
+    color: #fff;
+    background: #3b4350;
+    padding: 8px;
+    border: 2px solid #3b4350;
+}
+
+.onglet {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.onglet div {
+    width: 40%;
+    text-align: center;
+    padding: 10px;
+    background: #252e37;
+    border-radius: 8px;
+}
+
+.onglet div:hover {
+    color: #3f80ff;
+    background: #3b4350;
+    cursor: pointer;
+}
+
+.onglet.in div:nth-child(1) {
+    background: #3b4350;
+    color: #3f80ff;
+}
+
+.onglet.up div:nth-child(2) {
+    background: #3b4350;
+    color: #3f80ff;
+}
+
+.sign-in.active {
+    display: flex;
+}
+
+.sign-up.active {
+    display: flex;
+}
+
+.error-connection input{
+    border: 2px solid #ff2768;
+}
+.error-connection p{
+    color: #ff2768;
+}
